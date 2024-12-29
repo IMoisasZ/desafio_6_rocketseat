@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-inline: 2rem;
+}
+
+@media(width >= 80em){
+    header {
+        margin: 1.5625rem 0 3.875rem 0;
+    }
+
+    & .only-desktop {
+        display: flex;
+    }
+}

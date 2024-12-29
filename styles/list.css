@@ -1,0 +1,38 @@
+#list {
+    margin-top: 2.5rem;
+    & .format-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        height: 3.0625rem;
+        background-color: var(--background-secondary);
+        padding: .5rem .75rem;
+        border-radius: .625rem;
+
+        margin-bottom: .75rem;
+
+        & div {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            height: 100%;
+
+            & span {
+                font: var(--paragraph);
+                color: var(--content-secondary);
+            }
+        }
+
+        & button {
+            background-color: transparent;
+            border: none;
+            z-index: 9999;
+
+            & :hover {
+                scale: 1.1;
+                cursor: pointer;
+            }
+        }
+    }
+}

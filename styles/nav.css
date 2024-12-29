@@ -1,0 +1,10 @@
+nav {
+    margin-top: 2.125rem;
+    padding-inline: 2rem;
+}
+
+@media(width >= 80em){
+    nav {
+        padding-inline: 21.875rem;
+    }
+}

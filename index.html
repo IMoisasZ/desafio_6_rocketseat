@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Lista de compras</title>
+	</head>
+	<!-- css -->
+	<link
+		rel="stylesheet"
+		href="./styles/styles.css" />
+	<!-- google fonts -->
+	<link
+		rel="preconnect"
+		href="https://fonts.googleapis.com" />
+	<link
+		rel="preconnect"
+		href="https://fonts.gstatic.com"
+		crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet" />
+	<body>
+		<header class="only-desktop">
+			<img
+				src="./img/logo.svg"
+				alt="" />
+		</header>
+		<nav>
+			<a href="#"
+				><img
+					src="./img/left-arrow.svg"
+					alt="" />
+			</a>
+		</nav>
+		<main>
+			<h1>Compras da semana</h1>
+
+			<form>
+				<input
+					type="text"
+					id="item"
+					name="item"
+					placeholder="Adicione um novo item" />
+				<button id="btn">Adicionar item</button>
+			</form>
+			<div id="list"></div>
+			<div id="message" class="hide-message">
+				<div>
+					<img
+						src="./img/warning-circle-filled.svg"
+						alt="" />
+					<p>O item foi removido da lista</p>
+				</div>
+				<button
+					id="btn-close"
+					type="button">
+					<img
+						src="./img/delete-small.svg"
+						alt="" />
+				</button>
+			</div>
+		</main>
+		<!-- java script -->
+		<script src="script.js"></script>
+	</body>
+</html>
